@@ -54,16 +54,17 @@ header {
     display: flex;
     margin-right: 3vw;
     font-weight: bold;
-    background-color: gray;
+    background-color: rgb(250, 110, 134);
     height: 25%;
     width: 25%;
     text-align: center;
     border-radius: 30px;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
-.envelope {
+.envelopelogo {
     height: 50%;
     padding-left: 1vw;
     margin-right: 1vw;
