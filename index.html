@@ -5,38 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IGSA</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="envelope.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet">
+    <link rel="stylesheet" href="envelope.css">
 </head>
 <body>
-    <div class="envlope-wrapper">
-        <div id="envelope" class="close">
-            <div class="front flap"></div>
-            <div class="front pocket"></div>
+    <div id="mensagem">
+        <div class="wrapper">
+            <div class="lid one"></div>
+            <div class="lid two"></div>
+            <div class="envelope"></div>
             <div class="letter">
-                <div class="words line1"></div>
-                <div class="words line2"></div>
-                <div class="words line3"></div>
-                <div class="words line4"></div>
-            </div>
-            <div class="hearts">
-                <div class="heart a1"></div>
-                <div class="heart a2"></div>
-                <div class="heart a3"></div>
+            <p>Eu desejo todo o sucesso do mundo para você! Te amo!</p>
             </div>
         </div>
+        <button onclick="mensagem(2)">Fechar</button>
     </div>
-<div class="reset">
-    <button id="open">Open</button>
-    <button id="reset">Reset</button>
-</div>
     <header>
         <div class="container-logo">
             <a href="index.html"><img class="logo" src="Imagem/img.webp" alt=""></a>
             <a href="index.html"><h1>IGSA</h1></a>
         </div>
-        <div class="container-envelope">
-            <img class="envelope" src="Imagem/envelope.png" alt="">
+        <div class="container-envelope" onclick="mensagem(1)">
+            <img class="envelopelogo" src="Imagem/envelope.png" alt="">
             <h1>Mensagem do dia</h1>
         </div>
     </header>
