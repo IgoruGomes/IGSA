@@ -1,26 +1,9 @@
-$( document ).ready(function() {
-    
-    var envelope = $('#envelope');
-    var btn_open = $("#open");
-    var btn_reset = $("#reset");
-    
-    envelope.click( function() {
-        open();
-    });
-    btn_open.click( function() {
-        open();
-    });
-    btn_reset.click( function() {
-        close();
-    });
-
-    function open() {
-        envelope.addClass("open")
-           .removeClass("close");
+function mensagem(x) {
+    if (x == 1) {
+        document.getElementById("mensagem").style.display = "flex";
+        document.body.style.overflow = "hidden";
+    } else {
+        document.getElementById("mensagem").style.display = "   none";
+        document.body.style.overflow = "visible";
     }
-    function close() {
-        envelope.addClass("close")
-           .removeClass("open");
-    }
-   
-});
+}
