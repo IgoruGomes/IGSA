@@ -1,7 +1,7 @@
 * {
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
-    font-weight: bolder;
+    /* font-weight: bolder; */
 }
 
 body {
@@ -227,7 +227,6 @@ header {
     color: white;
     font-size: 50px;
 }
-
 
 footer {
     background-color: rgb(65, 0, 65);

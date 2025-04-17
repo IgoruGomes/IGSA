@@ -5,16 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria</title>
     <link rel="stylesheet" href="galeria.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class="container-logo">
-            <a href="index.html"><img class="logo" src="Imagem/img.webp" alt=""></a>
-            <a href="index.html"><h1>IGSA</h1></a>
-        </div>
-        <div class="container-envelope">
-            <img class="envelope" src="Imagem/envelope.png" alt="">
-            <h1>Mensagem do dia</h1>
+        <div class="container-header">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="Imagem/img.webp" alt="">
+                    <h1>IGSA</h1>
+                </a>
+            </div>
+            <div class="mensagem" onclick="mensagem(1)">
+                <img class="envelopelogo" src="Imagem/envelope.png" alt="">
+                <h1>Mensagem do dia</h1>
+            </div>
         </div>
     </header>
     <main>
