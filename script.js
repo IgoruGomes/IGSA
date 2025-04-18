@@ -26,14 +26,14 @@ function frases() {
     switch (valor) {
         case 0:
             document.getElementById("frase").innerHTML = "Você foi a pessoa que eu semprei sonhei em ter!";
-            alert("entrou");
+            // alert("entrou");
             break;
         case 1:
-            alert("entrou1");
+            // alert("entrou1");
             document.getElementById("frase").innerHTML = "Quando fecho meus olhos, me vejo nos seus braços";
             break;
         default:
-            alert("entrou2");
+            // alert("entrou2");
             document.getElementById("frase").innerHTML = "Eu desejo todo o sucesso do mundo para você! Te amo!";
             break;
     } 
