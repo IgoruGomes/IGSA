@@ -4,6 +4,10 @@
     box-sizing: border-box;
   }
   
+#frase {
+  padding: 2%;
+}
+
 button {
     position: relative;
     margin-top: 300px;
